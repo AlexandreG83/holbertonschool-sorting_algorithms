@@ -53,7 +53,7 @@ void insertion_sort_list(listint_t **list)
 
 		while (tmp->prev && tmp->n < tmp->prev->n)
 		{
-			if (swap_nodes(list, temp))
+			if (swap_nodes(list, tmp))
 				print_list(*list);
 		}
 
